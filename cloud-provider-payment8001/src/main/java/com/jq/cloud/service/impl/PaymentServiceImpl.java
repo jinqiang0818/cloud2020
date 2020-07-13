@@ -21,4 +21,10 @@ public class PaymentServiceImpl implements PaymentService {
 
         return paymentDao.getPaymentById(id);
     }
+
+    @Override
+    public Long addPayment(Payment payment) {
+        paymentDao.addPayment(payment);
+        return payment.getId();
+    }
 }

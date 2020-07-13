@@ -7,8 +7,9 @@ spring:
     # 当前数据源操作类型
     type: com.alibaba.druid.pool.DruidDataSource
     # mysql驱动类
-#    driver-class-name: com.alibaba.druid.proxy.DruidDriver
+#   这里的yml必须使用正确的格式，如果是复制，必须把缩进弄好
     driverClassName: com.mysql.jdbc.Driver
+    #在mysql5.7后要求必须要有这个usessl的认证标识，否则报错
 #    url: jdbc:mysql://localhost:3306/cloud2020?characterEncoding=UTF8
     url: jdbc:mysql://localhost:3306/cloud2020?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=GMT%2B8
     username: root

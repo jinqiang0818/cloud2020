@@ -9,4 +9,5 @@ public interface PaymentDao {
 
     Payment getPaymentById(@PathVariable("id") Long id);
 
+    int addPayment(Payment payment);
 }

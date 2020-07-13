@@ -6,4 +6,5 @@ public interface PaymentService {
 
     Payment getPaymentById(Long id);
 
+    Long addPayment(Payment payment);
 }
