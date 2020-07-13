@@ -13,6 +13,12 @@
 
 
     <dependencies>
+        <dependency>
+            <groupId>com.jq.cloud</groupId>
+            <artifactId>cloud-common-api</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
