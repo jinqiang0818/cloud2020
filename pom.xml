@@ -7,6 +7,8 @@
     <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>cloud-provider-payment8001</module>
+        <module>cloud-consumer-order80</module>
+        <module>cloud-common-api</module>
     </modules>
     <packaging>pom</packaging>
     <name>cloud2020</name>
